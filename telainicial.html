@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+        }
+    </style>
+    <div class="columns ">
+        <div class="column is-4 is-offset-4">
+            <form class="box">
+                <img class="center" src="icons\logo final.png" alt="">
+                <div class="content is-size-1 has-text-black">
+                    <p>Login</p>
+                </div>
+                <div class="field">
+                    <label class="label">E-mail</label>
+                    <div class="control">
+                        <input class="input has-background-grey-lighter is-rounded " type="email"
+                            placeholder="e.g. alex@example.com">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Senha</label>
+                    <div class="control">
+                        <input class="input has-background-grey-lighter is-rounded" type="password"
+                            placeholder="********">
+                        <div class="content is-small is mx-1">
+                            <p style="float: right;"> Esqueceu a senha? <a href="telarecuperar.html"
+                                    style="color: black;"><u> Recuperar</u></a> </p>
+                            &emsp;
+                        </div>
+                    </div>
+                </div>
+                <button id="botaologin" onclick="redirecionar()"
+                    class="button is-primary is-rounded is-center has-background-black px-6 has-text-weight-bold is-fullwidth ">Entrar</button>
+                <div class="content has-text-centered">
+                    <p class="content is-size-7"> Ao clicar no botão de entrar, você aceita as regras de Política De
+                        Privacidade da nossa empresa.</p>
+                    <br>
+                    Não tem conta ainda? <a href="telacadastro.html" style="color: black;"><u> Cadastre-se </u></a> </p>
+                </div>
+                <script>
+                    function redirecionar() {
+                        window.location.href = "telahome.html";
+                    }
+                </script>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

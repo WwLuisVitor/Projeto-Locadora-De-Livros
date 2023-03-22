@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Tela de cadastro</title>
+</head>
+
+<body>
+    <div class="columns ">
+        <div class="column is-4 is-offset-4">
+            <form class="box">
+                <div class="content is-size-1 has-text-black">
+                    <p>Registro</p>
+                </div>
+                <div class="field">
+                    <label class="label">E-mail</label>
+                    <div class="control">
+                        <input class="input has-background-grey-lighter is-rounded " type="email"
+                            placeholder="e.g. alex@example.com">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Confirme seu email</label>
+                    <div class="control">
+                        <input class="input has-background-grey-lighter is-rounded" type="email"
+                            placeholder="e.g. alex@example.com">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Senha</label>
+                    <div class="control">
+                        <input class="input has-background-grey-lighter is-rounded " type="email"
+                            placeholder="****************">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Confirme sua senha</label>
+                    <div class="control">
+                        <input class="input has-background-grey-lighter is-rounded " type="email"
+                            placeholder="****************">
+                    </div>
+                </div>
+                <button onclick="redirecionar()" id="botaocadastro"
+                    class="button is-primary is-rounded is-center has-background-black px-6 has-text-weight-bold is-fullwidth ">Registre-se</button>
+                <div class="content has-text-centered">
+                    <br>
+                    Já tem uma conta? <a href="telainicial.html" style="color: black;"><u> Entrar </u></a> </p>
+                </div>
+                <script>
+                    function redirecionar() {
+                        window.location.href = "telainicial.html";
+                    }
+                </script>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

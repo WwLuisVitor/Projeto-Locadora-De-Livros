@@ -5,29 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="Stylessituacionais.css">
     <title>Tela Perfil</title>
 </head>
 
 <body>
-    <style>
-        .center {
-            display: inline;
-            margin-left: auto;
-            margin-right: auto;
-            width: 40%;
-            border-radius: 20px;
-        }
-
-        .menunaveg {
-            width: 60%;
-
-        }
-
-        .botaoplay {
-            width: 20%;
-            border-radius: 45px;
-        }
-    </style>
     <div class="columns is-flex-mobile ">
         <div class="column is-4 is-offset-4">
             <form class="box">
@@ -46,6 +28,11 @@
                         <p class="input has-background-grey-lighter is-rounded">fulano@exemplo.com</p>
                     </div>
                     <br>
+                    <div class="control">
+                        &emsp; <b>Senha</b>
+                        <p class="input has-background-grey-lighter is-rounded"> <strong>*******************</strong></p>
+                    </div>
+                    <br>
                     <div>
                         <button
                             class="button is-primary is-rounded is-center has-background-black px-6 has-text-weight-bold is-fullwidth">Alterar
@@ -54,7 +41,7 @@
                     <br>
                     <div class="field is-grouped" style="justify-content: center;">
 
-                        <button onclick="redirecionar()"
+                        <button type="button" onclick="redirecionar()"
                             class="button is-primary is-rounded is-centered px-6 has-text-weight-bold is-4"
                             style="background-color: rgb(50, 190, 166);">Sair</button>
                         <script>

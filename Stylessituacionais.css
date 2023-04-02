@@ -1,0 +1,58 @@
+/* Styles utilizados em situações específicas dentro do código. */
+
+.centralizarlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.center {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.menunaveg {
+    width: 60%;
+
+}
+
+.botaoplay {
+    width: 20%;
+    border-radius: 45px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+    
+}
+
+.header h1 {
+	font-size: 50px;
+	margin: 0px;
+}
+
+.header a {
+	cursor: unset;
+	width: 80px;
+	height: 80px;
+	border-radius: 60%;
+}
+
+.header a img{
+    border-radius: 60%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;    
+}
+
+.imagemestante{
+    width: 130px;
+    height: 200px;
+    border-radius: 20%;
+}

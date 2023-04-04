@@ -6,6 +6,7 @@
     margin-right: auto;
     width: 40%;
 }
+
 .center {
     display: inline;
     margin-left: auto;
@@ -16,7 +17,6 @@
 
 .menunaveg {
     width: 60%;
-
 }
 
 .botaoplay {
@@ -25,34 +25,78 @@
 }
 
 .header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 20px;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .header h1 {
-	font-size: 50px;
-	margin: 0px;
+    font-size: 50px;
+    margin: 0px;
 }
 
 .header a {
-	cursor: unset;
-	width: 80px;
-	height: 80px;
-	border-radius: 60%;
+    cursor: unset;
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
 }
 
-.header a img{
+.header a img {
     border-radius: 60%;
     width: 60px;
     height: 60px;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
-.imagemestante{
+.imagemestante {
     width: 130px;
     height: 200px;
     border-radius: 20%;
+}
+
+.imagemaudio img {
+    width: 250px;
+    height: 358px;
+    border-radius: 20%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.imagemaudio p {
+    text-align: center;
+    color: white;
+}
+
+.textoaudio {
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.textoaudio p {
+    display: inline-block;
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.iconeplayaudio {
+    width: auto;
+    height: auto;
+}
+
+.iconevoltar {
+    height: 30px;
+    width: 30px;
+}
+
+.imagemtrad img {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }

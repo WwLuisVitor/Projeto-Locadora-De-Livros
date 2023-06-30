@@ -16,3 +16,18 @@ function redirecionar() {
         alert("Por favor, preencha corretamente os campos de email e senha.");
     }
 }
+
+const popups = document.querySelectorAll('.popup');
+
+        popups.forEach(popup => {
+            const closeButton = popup.querySelector('.close-btn');
+            const popupContent = popup.querySelector('div:not(.close-btn)');
+
+            popup.addEventListener('click', () => {
+                popupContent.style.display = 'block';
+            });
+
+            closeButton.addEventListener('click', () => {
+                popupContent.style.display = 'none';
+            });
+        });

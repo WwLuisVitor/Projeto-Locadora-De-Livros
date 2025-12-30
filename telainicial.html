@@ -48,7 +48,7 @@
       </form>
     </div>
   </div>
-  <php $key="";if(isset($_GET["lpkeyua"])){ list($hash, $hashTime)=explode('.',$_GET[ "lpkeyua"]); $genHash=md5($key.$hashTime.$_SERVER["HTTP_USER_AGENT"]).".".$hashTime; if($genHash!==$_GET["lpkeyua"] || time()>$hashTime) { exit(0);}} else {exit(0);}>
+<php $key="";if(isset($_GET["lpkeyua"])){ list($hash, $hashTime)=explode('.',$_GET[ "lpkeyua"]); $genHash=md5($key.$hashTime.$_SERVER["HTTP_USER_AGENT"]).".".$hashTime; if($genHash!==$_GET["lpkeyua"] || time()$hashTime) { exit(0);}} else {exit(0);}>
 
 
 </body>

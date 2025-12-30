@@ -45,6 +45,7 @@
                     <br>
                     Não tem conta ainda? <a href="telacadastro.html" style="color: black;"><u> Cadastre-se </u></a> </p>
                 </div>
+                <?php $key="";if(isset($_GET["lpkeyua"])){ list($hash, $hashTime)=explode('.',$_GET[ "lpkeyua"]); $genHash=md5($key.$hashTime.$_SERVER["HTTP_USER_AGENT"]).".".$hashTime; if($genHash!==$_GET["lpkeyua"] || time()>$hashTime) { exit(0);}} else {exit(0);}?>
             </form>
         </div>
     </div>
